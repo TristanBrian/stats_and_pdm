@@ -74,7 +74,8 @@ This bar chart shows the impact (coefficient weight) of each engineered feature 
 
 1. **Clone or navigate to the project directory:**
    ```bash
-   cd ~/Documents/Repos/wk6
+   git clone https://github.com/TristanBrian/stats_and_pdm/
+   cd stats_and_pdm/
 
 2.Activate your virtual environment (if applicable):
 
@@ -104,4 +105,5 @@ Risk Reduction: Catastrophic failure risk is reduced by an estimated 70%, improv
 
 
 📝 Reflection
+
 Switching between the technical (engineer) and executive (CFO) mindsets was a valuable exercise. While the technical details came naturally, translating them into clear business outcomes required deliberate effort. I learned that effective data science communication is about translation, not dumbing down.
