@@ -1,7 +1,6 @@
 # Week 6: Statistical Validation & Predictive Maintenance (PdM)
 
-**Author:** Tristan  
-**Date:** [Insert Date]  
+
 **Notebook:** `week6_stats_and_pdm.ipynb`
 
 ---
@@ -77,9 +76,7 @@ This bar chart shows the impact (coefficient weight) of each engineered feature 
    ```bash
    cd ~/Documents/Repos/wk6
 
-
-2. 
-Activate your virtual environment (if applicable):
+2.Activate your virtual environment (if applicable):
 
 bash
 source venv/bin/activate
@@ -97,22 +94,14 @@ bash
 python -m notebook
 Then open week6_stats_and_pdm.ipynb and run all cells.
 
-💼 Business Impact Summary
+
+3. 💼 Business Impact Summary
 Cost Savings: The model enables early failure detection, potentially saving ~$535,000 annually by reducing emergency repairs and unplanned downtime.
 
 ROI: With an implementation cost of ~$50,000, the Year 1 ROI is estimated at 970% with a payback period of less than 1 month.
 
 Risk Reduction: Catastrophic failure risk is reduced by an estimated 70%, improving overall production stability and workplace safety.
 
-📁 Folder Structure
-text
-wk6/
-├── week6_stats_and_pdm.py          # The main Python script
-├── week6_stats_and_pdm.ipynb       # Jupyter Notebook version
-├── README.md                       # This file
-└── shots/                          # Contains all screenshots
-    ├── t1.png                      # Degradation Trends (3-in-1 plot)
-    ├── t2.png                      # Binary Target Assignment
-    └── t3.png                      # Logistic Regression Coefficients
+
 📝 Reflection
 Switching between the technical (engineer) and executive (CFO) mindsets was a valuable exercise. While the technical details came naturally, translating them into clear business outcomes required deliberate effort. I learned that effective data science communication is about translation, not dumbing down.
